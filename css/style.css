@@ -26,6 +26,7 @@ body {
 .top-hero {
 	position: relative;
 	height: 200px;
+	z-index: 0;
 }
 .top-hero-text {
 	display: flex;
@@ -185,6 +186,27 @@ footer {
 
 .service-hero-box.box-four {
 	background-image: url(../img/service/allinone.jpg);
+}
+
+.projects-hero {
+	background-image: url(../img/projects/project-hero.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.projects img {
+	height: 240px;
+	object-fit: cover;
+}
+
+.projects .btn {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.contact-hero {
+	background-image: url('../img/contacts/shelby-3821715_1920.jpg');
+	background-position: center;
 }
 @media (min-width: 992px) {
 	.aboutus-info .container {
